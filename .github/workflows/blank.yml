@@ -11,7 +11,7 @@ on:
 jobs:
   Logintodockerhub:
     runs-on: ubuntu-latest
-    environment: nitin-env-dev
+    environment: dev
     steps:
     - uses: actions/checkout@v3
     - name: docker login
